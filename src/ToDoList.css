@@ -1,0 +1,80 @@
+
+.To-Do-List{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.To-Do-List h1{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+   color: wheat;
+}
+
+
+input{
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: white;
+ 
+    
+}
+.add-btn{
+    font-size: 2rem;
+    margin-left: 5px;
+    background-color: bisque;
+    border-radius: 4px;
+    
+}
+
+ol{
+    font-family: cursive;
+    background-color: white;
+    
+}
+
+li{
+    
+    padding: 20px;  
+    background-color: white;
+}
+
+.text{
+    background-color: white;
+    font-family: cursive;
+    font-size: 2.5rem;
+
+}
+
+.delete-btn{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.up-btn{
+    font-size: 1.5rem;
+    padding: 4px;
+    margin-left: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+
+.down-btn{
+    font-size: 1.5rem;
+    padding: 4px;
+    margin-left: 10px;
+    background-color: darkcyan;
+    border-radius: 10px;
+
+}
+
+
