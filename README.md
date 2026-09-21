@@ -1,16 +1,51 @@
-# React + Vite
+# React Practice Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of small React projects I built while learning frontend development. Each component focuses on a core React concept.
 
-Currently, two official plugins are available:
+## Components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Component | What it does | Concepts practiced |
+|-----------|--------------|--------------------|
+| Counter | Increment, decrement, and reset a number | `useState`, event handling |
+| Color Picker | Pick a color and see a live preview | Controlled inputs, inline styles |
+| Stopwatch | Start, stop, and reset a timer | `useEffect`, `useRef`, cleanup functions |
+| To-Do List | Add, delete, and reorder tasks | Array state, `.map()`, keys, immutable updates |
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- CSS
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+       git clone https://github.com/[your-username]/[repo-name].git
+
+2. Go into the project folder
+
+       cd [repo-name]
+
+3. Install dependencies
+
+       npm install
+
+4. Start the development server
+
+       npm run dev
+
+5. Open the local URL shown in the terminal (usually `http://localhost:5173`)
+
+## What I Learned
+
+- Managing component state with hooks
+- Building controlled form inputs
+- Cleaning up intervals with `useEffect`
+- Updating arrays without mutating state
+
+## Future Improvements
+
+- Save to-do tasks in `localStorage`
+- Add lap times to the stopwatch
+- Add React
