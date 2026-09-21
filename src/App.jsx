@@ -23,12 +23,15 @@ function App() {
 
     
     <>
-    
+
+    <List item= {fruit} category ="fruit"  />
+    <List item= {vegetables} category ="Vegetable"  />
+
     <Counter/>
     <ColorPicker/>
 
     <StopWatch/>
-
+    
         <ToDoList/>
     </>
   )
